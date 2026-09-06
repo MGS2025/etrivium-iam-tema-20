@@ -66,6 +66,16 @@ svg{max-width:100%;height:auto;display:block;margin:14px auto;background:#fff;bo
 @media(max-width:640px){.tabs{top:0}.test-bar{top:0}}
 
 .indice-outline ol{margin:6px 0 6px 18px}
+
+/* ficha-estudio */
+.ficha-estudio{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.ficha-estudio .fe-item{flex:1 1 260px;border:1px solid rgba(127,127,127,.28);
+  border-left:3px solid #c77a1b;border-radius:6px;padding:10px 14px}
+.ficha-estudio .fe-k{display:block;font-size:11px;letter-spacing:.09em;
+  text-transform:uppercase;opacity:.72;margin-bottom:3px}
+.ficha-estudio .fe-v{display:block;font-size:15px;font-weight:600;line-height:1.4}
+.ficha-estudio .fe-n{font-weight:400;font-size:13px;opacity:.75}
+@media print{.ficha-estudio .fe-item{break-inside:avoid}}
 </style>
 </head>
 <body>
@@ -76,10 +86,10 @@ svg{max-width:100%;height:auto;display:block;margin:14px auto;background:#fff;bo
   <h1>Tema 20 — Diseño y programación orientada a objetos</h1>
   <div class="sub">Objetos, clases, herencia, métodos, sobrecarga · Ventajas e inconvenientes · Patrones de diseño y UML</div>
   <div class="banner"><strong>Parte II — Técnico · C1 Ayuntamiento de Madrid</strong> · Piloto v1.0 · 2026-07-13 · Pendiente de validación</div>
-</div>
+</div><!-- ficha-estudio:ini --><div class="ficha-estudio"><div class="fe-item"><span class="fe-k">Extensi&oacute;n</span><span class="fe-v">~8.600 palabras &middot; 12 diagramas &middot; 60 preguntas de test</span></div><div class="fe-item"><span class="fe-k">Tiempo estimado de estudio</span><span class="fe-v">10-12 horas <span class="fe-n">(primera vuelta completa, sin contar repasos)</span></span></div></div><!-- ficha-estudio:fin -->
 <h2>Qué incluye este tema</h2>
 <table><thead><tr><th>Entregable</th><th>Cantidad</th></tr></thead><tbody>
-<tr><td>Contenido teórico</td><td>6 secciones · 29 epígrafes · ~8.260 palabras</td></tr>
+<tr><td>Contenido teórico</td><td>6 secciones · 29 epígrafes · ~8.600 palabras</td></tr>
 <tr><td>Diagramas SVG inline</td><td>12 diagramas autosuficientes</td></tr>
 <tr><td>Banco de preguntas tipo test</td><td>60 preguntas A/B/C (balanceadas 20/20/20) con corrección y penalización 1/3</td></tr>
 <tr><td>Casos prácticos Ayto Madrid</td><td>3 casos (diseño de clases, patrones Factory Method/Strategy, modelado UML)</td></tr>
@@ -308,7 +318,7 @@ for (Expediente e : expedientes) {
 <div class="indice-outline"><ol style="list-style:none"><li><strong>1. Fundamentos de la programación orientada a objetos</strong><ol style="list-style:none"><li>1.1. Evolución de la ingeniería del software hacia el paradigma OO</li><li>1.2. Pilares fundamentales de la POO: abstracción y encapsulamiento</li><li>1.3. Modularidad y cohesión</li><li>1.4. Principios SOLID de diseño de software</li></ol></li><li><strong>2. Elementos y componentes software</strong><ol style="list-style:none"><li>2.1. Clases y objetos; ciclo de vida</li><li>2.2. Atributos, variables, métodos y constructores</li><li>2.3. Visibilidad y control de acceso</li><li>2.4. Mecanismos avanzados en POO: herencia simple y múltiple</li><li>2.5. Sobrecarga y sobrescritura de métodos</li><li>2.6. Polimorfismo y ligadura dinámica</li><li>2.7. Jerarquías y reutilización de código</li><li>2.8. Relaciones de acoplamiento</li></ol></li><li><strong>3. Ventajas e inconvenientes del paradigma OO</strong><ol style="list-style:none"><li>3.1. Beneficios en el ciclo de vida del software: reutilizabilidad y mantenibilidad</li><li>3.2. Escalabilidad y aislamiento de errores</li><li>3.3. Limitaciones, costes y penalizaciones técnicas: curva de aprendizaje y complejidad de diseño</li><li>3.4. Sobrecarga en tiempo de ejecución</li><li>3.5. Riesgos de un mal diseño orientado a objetos</li></ol></li><li><strong>4. Patrones de diseño</strong><ol style="list-style:none"><li>4.1. Concepto y catálogo (Gang of Four)</li><li>4.2. Patrón, anti-patrón y criterios de aplicabilidad arquitectónica</li><li>4.3. Clasificación técnica: patrones creacionales</li><li>4.4. Patrones estructurales</li><li>4.5. Patrones de comportamiento</li></ol></li><li><strong>5. Modelado de sistemas con UML (Unified Modeling Language)</strong><ol style="list-style:none"><li>5.1. Fundamentos y especificación del estándar OMG: origen y evolución</li><li>5.2. Bloques de construcción y mecanismos comunes</li><li>5.3. Diagramas estructurales y estáticos: Diagrama de Clases y Diagrama de Objetos</li><li>5.4. Diagramas de Arquitectura física</li><li>5.5. Diagramas de comportamiento: modelado de requisitos funcionales (Diagrama de Casos de Uso)</li><li>5.6. Interacción temporal: Diagramas de Secuencia y de Comunicación/Colaboración</li><li>5.7. Control de flujo y estados: Diagramas de Máquina de Estados y de Actividades</li></ol></li><li><strong>6. Tendencias actuales en el diseño orientado a objetos</strong></li></ol></div>
 <h2>Conceptos clave para memorizar</h2>
 <table><thead><tr><th>Concepto</th><th>Dato clave</th></tr></thead><tbody><tr><td>Los 4 pilares de la POO</td><td>Abstracción, Encapsulamiento, Herencia, Polimorfismo [BOOCH07]</td></tr><tr><td>SOLID</td><td>Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion [MARTIN03]</td></tr><tr><td>Herencia vs Composición</td><td>«Favorece la composición sobre la herencia» — principio de diseño de GoF para reducir acoplamiento [GOF94]</td></tr><tr><td>Sobrecarga (overloading)</td><td>Mismo nombre de método, distinta firma, ligadura en <strong>tiempo de compilación</strong> (estática) [GOSLING-JLS]</td></tr><tr><td>Sobrescritura (overriding)</td><td>Redefinición de un método heredado, ligadura en <strong>tiempo de ejecución</strong> (dinámica) [GOSLING-JLS]</td></tr><tr><td>Catálogo GoF</td><td>23 patrones: 5 creacionales + 7 estructurales + 11 de comportamiento [GOF94]</td></tr><tr><td>UML</td><td>Estándar OMG, 14 tipos de diagrama: 7 estructurales + 7 de comportamiento [OMG-UML25]</td></tr><tr><td>Diagrama de Clases</td><td>Único diagrama UML de obligada elaboración en casi cualquier diseño OO; 3 compartimentos (nombre, atributos, métodos) [FOWLER-UML]</td></tr><tr><td>Composición vs agregación</td><td>Composición = dependencia de ciclo de vida («todo-parte» fuerte, rombo relleno); agregación = independencia («todo-parte» débil, rombo hueco) [RUMBAUGH05]</td></tr></tbody></table>
-<p><em>Todos los ejemplos de código de este tema se escriben en <strong>Java</strong> (decisión de Joan, coherente con el Tema 21 — Arquitectura Java EE). Ver <code>tema-20-contenido.md</code>, sección «Convenciones», para el detalle de las cuatro cajas callout y el esquema de clases usado en los ejemplos.</em></p></section>
+<p><em>Todos los ejemplos de código de este tema se escriben en <strong>Java</strong> (decisión de Joan, coherente con el Tema 21 — Arquitectura Java EE). Ver <code>tema-20-contenido.md</code>, sección «Convenciones», para el detalle de las cuatro cajas callout y el esquema de clases usado en los ejemplos.</em></p><!-- ficha-estudio:ini --><div class="ficha-estudio"><div class="fe-item"><span class="fe-k">Extensi&oacute;n</span><span class="fe-v">~8.600 palabras &middot; 12 diagramas &middot; 60 preguntas de test</span></div><div class="fe-item"><span class="fe-k">Tiempo estimado de estudio</span><span class="fe-v">10-12 horas <span class="fe-n">(primera vuelta completa, sin contar repasos)</span></span></div></div><!-- ficha-estudio:fin --></section>
 <section id="tab-diagramas" class="tab-content"><hr>
 <hr>
 <h2>Índice de diagramas</h2>
