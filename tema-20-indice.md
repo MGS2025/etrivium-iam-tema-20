@@ -48,7 +48,7 @@
    5.6. Interacción temporal: Diagramas de Secuencia y de Comunicación/Colaboración
    5.7. Control de flujo y estados: Diagramas de Máquina de Estados y de Actividades
 
-6. **Tendencias actuales en el diseño orientado a objetos**
+6. **Tendencias actuales en el diseño orientado a objetos (material complementario)**
 
 ---
 
