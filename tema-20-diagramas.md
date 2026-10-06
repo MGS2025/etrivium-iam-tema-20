@@ -253,7 +253,7 @@
 ## D7 · Sobrecarga frente a sobrescritura
 
 **Sección**: §2.5 — Sobrecarga y sobrescritura de métodos
-**Propósito**: Contraste directo entre overloading (compilación) y overriding (ejecución) — la pregunta más recurrente del tema.
+**Propósito**: Contraste directo entre overloading (compilación) y overriding (ejecución).
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-label="Comparación entre sobrecarga de métodos, resuelta en tiempo de compilación dentro de la misma clase, y sobrescritura de métodos, resuelta en tiempo de ejecución entre superclase y subclase">
@@ -417,7 +417,7 @@
 ## D12 · Familias de diagramas UML de comportamiento
 
 **Sección**: §5.5-5.7 — Diagramas de comportamiento: casos de uso, interacción y estados/actividades
-**Propósito**: Visión de conjunto de los tres bloques de diagramas de comportamiento más preguntados.
+**Propósito**: Visión de conjunto de los tres bloques de diagramas de comportamiento más utilizados.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" aria-label="Las tres familias de diagramas UML de comportamiento: casos de uso para requisitos funcionales, diagramas de interacción (secuencia y comunicación) para colaboración temporal, y diagramas de máquina de estados y actividades para control de flujo">

@@ -2,7 +2,7 @@
 
 > **Título oficial**: Diseño y programación orientada a objetos. Objetos, clases, herencia, métodos, sobrecarga. Ventajas e inconvenientes. Patrones de diseño y UML.
 >
-> **Criterio**: todo dato del contenido cita un **ID** inline (p. ej. `[GOF94, cap. 1]`). Tier 1 = obras canónicas del paradigma OO, los patrones de diseño y el estándar UML; Tier 2 = especificación oficial del lenguaje usado en los ejemplos (Java, decisión de Joan, coherente con el Tema 21 — Java EE) y documentación de referencia de herramientas de modelado; Tier 3 = marco de calidad e ingeniería del software, no citado como contenido técnico nuclear.
+> **Criterio**: todo dato del contenido cita un **ID** inline (p. ej. `[GOF94, cap. 1]`). Tier 1 = obras canónicas del paradigma OO, los patrones de diseño y el estándar UML; Tier 2 = especificación oficial del lenguaje usado en los ejemplos (Java, coherente con el Tema 21 — Java EE) y documentación de referencia de herramientas de modelado; Tier 3 = marco de calidad e ingeniería del software, no citado como contenido técnico nuclear.
 
 ---
 
@@ -36,10 +36,11 @@
 
 | ID | Referencia |
 |---|---|
-| `[ISO25010]` | ISO/IEC 25010:2011 *Systems and software Quality Requirements and Evaluation (SQuaRE)* — mantenibilidad, modularidad, reutilización aplicadas al diseño OO. |
+| `[ISO25010]` | ISO/IEC 25010:2023 *Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model*. Anula y sustituye a la ISO/IEC 25010:2011: es la edición vigente del modelo de calidad del producto — mantenibilidad, modularidad, reutilización aplicadas al diseño OO. |
+| `[ISO25010-2011]` | ISO/IEC 25010:2011 *Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models*. Anulada y sustituida por la ISO/IEC 25010:2023. Se conserva la referencia porque es la que recogen los temarios al uso. |
 | `[ISO24765]` | ISO/IEC/IEEE 24765:2017 *Systems and software engineering — Vocabulary*. Definiciones normalizadas de clase, objeto, herencia, polimorfismo. |
 | `[BOAM10032]` | BOAM 10.032 (23-dic-2025). Bases específicas TIC C1 Ayto. Madrid — temario oficial. |
 
 ---
 
-*Las referencias Tier 1 fijan el fundamento teórico del paradigma OO (Booch, Meyer), los principios de diseño (Martin, Liskov), el catálogo de patrones (GoF) y el estándar de modelado (OMG UML, Rumbaugh/Jacobson/Booch), y son la base de todo el contenido; Tier 2 se cita en los ejemplos de código —escritos en **Java** (decisión de Joan, coherente con que el Tema 21 desarrolla la arquitectura Java EE)— y en la clasificación oficial de diagramas UML; Tier 3 enmarca la calidad y la vocabulario normalizado de ingeniería del software aplicables al puesto TIC del Ayuntamiento de Madrid.*
+*Las referencias Tier 1 fijan el fundamento teórico del paradigma OO (Booch, Meyer), los principios de diseño (Martin, Liskov), el catálogo de patrones (GoF) y el estándar de modelado (OMG UML, Rumbaugh/Jacobson/Booch), y son la base de todo el contenido; Tier 2 se cita en los ejemplos de código —escritos en **Java** (coherente con que el Tema 21 desarrolla la arquitectura Java EE)— y en la clasificación oficial de diagramas UML; Tier 3 enmarca la calidad y la vocabulario normalizado de ingeniería del software aplicables al puesto TIC del Ayuntamiento de Madrid.*

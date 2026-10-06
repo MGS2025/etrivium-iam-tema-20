@@ -68,4 +68,4 @@
 
 ---
 
-*Todos los ejemplos de código de este tema se escriben en **Java** (decisión de Joan, coherente con el Tema 21 — Arquitectura Java EE). Ver `tema-20-contenido.md`, sección «Convenciones», para el detalle de las cuatro cajas callout y el esquema de clases usado en los ejemplos.*
+*Todos los ejemplos de código de este tema se escriben en **Java** (coherente con el Tema 21 — Arquitectura Java EE). Ver `tema-20-contenido.md`, sección «Convenciones», para el detalle de las cuatro cajas callout y el esquema de clases usado en los ejemplos.*

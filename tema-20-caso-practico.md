@@ -202,4 +202,4 @@ Antes de programar el módulo de licencias del Caso 1, el equipo de análisis ne
 
 ---
 
-*Los tres casos son orientativos y pensados para la autoevaluación; las soluciones muestran una vía correcta, no la única posible. El código de los Casos 1 y 2 está escrito en Java (decisión de Joan); el Caso 3 se resuelve con descripciones textuales de la notación UML, sin depender de ninguna herramienta de modelado concreta.*
+*Los tres casos son orientativos y pensados para la autoevaluación; las soluciones muestran una vía correcta, no la única posible. El código de los Casos 1 y 2 está escrito en Java; el Caso 3 se resuelve con descripciones textuales de la notación UML, sin depender de ninguna herramienta de modelado concreta.*
