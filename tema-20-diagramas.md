@@ -36,7 +36,7 @@
 **Propósito**: Fijar el orden histórico de paradigmas y los hitos de lenguaje de la POO.
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 300" role="img" aria-label="Línea de tiempo de la evolución de los paradigmas de programación: no estructurada, estructurada, modular y orientada a objetos, con los hitos Simula 67, Smalltalk, C++ y Java">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 316" role="img" aria-label="Línea de tiempo de la evolución de los paradigmas de programación: no estructurada, estructurada, modular y orientada a objetos, con los hitos Simula 67, Smalltalk, C++ y Java">
   <style>.t1{font:700 12px system-ui,sans-serif;fill:#fff}.s1{font:10px system-ui,sans-serif;fill:#fff}.l1{font:11px system-ui,sans-serif;fill:#444}.h1{font:700 13px system-ui,sans-serif;fill:#0055a0}</style>
   <text x="340" y="24" text-anchor="middle" class="h1">De la programación no estructurada al paradigma orientado a objetos</text>
   <line x1="50" y1="70" x2="630" y2="70" stroke="#0055a0" stroke-width="2"/>
@@ -56,13 +56,13 @@
   <text x="450" y="174" text-anchor="middle" class="l1">de las funciones</text>
   <text x="610" y="160" text-anchor="middle" class="l1">Objetos: datos +</text>
   <text x="610" y="174" text-anchor="middle" class="l1">comportamiento juntos</text>
-  <rect x="470" y="200" width="180" height="80" rx="6" fill="#eef4fa" stroke="#0055a0"/>
+  <rect x="470" y="200" width="180" height="90" rx="6" fill="#eef4fa" stroke="#0055a0"/>
   <text x="560" y="220" text-anchor="middle" style="font:700 11px system-ui;fill:#0055a0">Hitos del lenguaje OO</text>
   <text x="480" y="238" class="l1">1967 · Simula 67</text>
   <text x="480" y="252" class="l1">1970s · Smalltalk</text>
   <text x="480" y="266" class="l1">1983 · C++</text>
   <text x="480" y="280" class="l1" style="font-weight:700">1995 · Java</text>
-  <text x="670" y="292" text-anchor="end" style="font:11px system-ui;fill:#666">[Fuente: BOOCH07; GOSLING-JLS]</text>
+  <text x="670" y="308" text-anchor="end" style="font:11px system-ui;fill:#666">[Fuente: BOOCH07; GOSLING-JLS]</text>
 </svg>
 ```
 
@@ -192,22 +192,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" aria-label="Matriz de los cuatro modificadores de acceso de Java: private, package-private, protected y public, y su visibilidad desde la misma clase, el mismo paquete, una subclase o cualquier clase">
   <style>.t5{font:700 11px system-ui,sans-serif;fill:#fff}.s5{font:10px system-ui,sans-serif;fill:#123}.h5{font:700 13px system-ui,sans-serif;fill:#0055a0}</style>
   <text x="340" y="20" text-anchor="middle" class="h5">Modificadores de acceso: de más restrictivo a más abierto</text>
-  <rect x="30" y="40" width="140" height="26" fill="#0055a0"/><text x="100" y="58" text-anchor="middle" class="t5">private</text>
-  <rect x="180" y="40" width="140" height="26" fill="#0055a0"/><text x="250" y="58" text-anchor="middle" class="t5">(package)</text>
-  <rect x="330" y="40" width="140" height="26" fill="#2d8659"/><text x="400" y="58" text-anchor="middle" class="t5">protected</text>
-  <rect x="480" y="40" width="140" height="26" fill="#2d8659"/><text x="550" y="58" text-anchor="middle" class="t5">public</text>
-  <line x1="30" y1="80" x2="620" y2="80" stroke="#ccc"/>
+  <rect x="170" y="40" width="115" height="26" fill="#0055a0"/><text x="227" y="58" text-anchor="middle" class="t5">private</text>
+  <rect x="295" y="40" width="115" height="26" fill="#0055a0"/><text x="352" y="58" text-anchor="middle" class="t5">(package)</text>
+  <rect x="420" y="40" width="115" height="26" fill="#2d8659"/><text x="477" y="58" text-anchor="middle" class="t5">protected</text>
+  <rect x="545" y="40" width="115" height="26" fill="#2d8659"/><text x="602" y="58" text-anchor="middle" class="t5">public</text>
+  <line x1="30" y1="80" x2="660" y2="80" stroke="#ccc"/>
   <text x="30" y="100" class="s5" style="font-weight:700">Misma clase</text>
-  <text x="100" y="100" text-anchor="middle" class="s5">✓</text><text x="250" y="100" text-anchor="middle" class="s5">✓</text><text x="400" y="100" text-anchor="middle" class="s5">✓</text><text x="550" y="100" text-anchor="middle" class="s5">✓</text>
-  <line x1="30" y1="116" x2="620" y2="116" stroke="#eee"/>
+  <text x="227" y="100" text-anchor="middle" class="s5">✓</text><text x="352" y="100" text-anchor="middle" class="s5">✓</text><text x="477" y="100" text-anchor="middle" class="s5">✓</text><text x="602" y="100" text-anchor="middle" class="s5">✓</text>
+  <line x1="30" y1="116" x2="660" y2="116" stroke="#eee"/>
   <text x="30" y="136" class="s5" style="font-weight:700">Mismo paquete</text>
-  <text x="100" y="136" text-anchor="middle" class="s5">✗</text><text x="250" y="136" text-anchor="middle" class="s5">✓</text><text x="400" y="136" text-anchor="middle" class="s5">✓</text><text x="550" y="136" text-anchor="middle" class="s5">✓</text>
-  <line x1="30" y1="152" x2="620" y2="152" stroke="#eee"/>
+  <text x="227" y="136" text-anchor="middle" class="s5">✗</text><text x="352" y="136" text-anchor="middle" class="s5">✓</text><text x="477" y="136" text-anchor="middle" class="s5">✓</text><text x="602" y="136" text-anchor="middle" class="s5">✓</text>
+  <line x1="30" y1="152" x2="660" y2="152" stroke="#eee"/>
   <text x="30" y="172" class="s5" style="font-weight:700">Subclase (otro paquete)</text>
-  <text x="100" y="172" text-anchor="middle" class="s5">✗</text><text x="250" y="172" text-anchor="middle" class="s5">✗</text><text x="400" y="172" text-anchor="middle" class="s5">✓</text><text x="550" y="172" text-anchor="middle" class="s5">✓</text>
-  <line x1="30" y1="188" x2="620" y2="188" stroke="#eee"/>
+  <text x="227" y="172" text-anchor="middle" class="s5">✗</text><text x="352" y="172" text-anchor="middle" class="s5">✗</text><text x="477" y="172" text-anchor="middle" class="s5">✓</text><text x="602" y="172" text-anchor="middle" class="s5">✓</text>
+  <line x1="30" y1="188" x2="660" y2="188" stroke="#eee"/>
   <text x="30" y="208" class="s5" style="font-weight:700">Cualquier clase</text>
-  <text x="100" y="208" text-anchor="middle" class="s5">✗</text><text x="250" y="208" text-anchor="middle" class="s5">✗</text><text x="400" y="208" text-anchor="middle" class="s5">✗</text><text x="550" y="208" text-anchor="middle" class="s5">✓</text>
+  <text x="227" y="208" text-anchor="middle" class="s5">✗</text><text x="352" y="208" text-anchor="middle" class="s5">✗</text><text x="477" y="208" text-anchor="middle" class="s5">✗</text><text x="602" y="208" text-anchor="middle" class="s5">✓</text>
   <text x="325" y="250" text-anchor="middle" style="font:700 12px system-ui;fill:#e89822">Regla de diseño: exponer el mínimo nivel de visibilidad necesario</text>
   <text x="325" y="270" text-anchor="middle" style="font:11px system-ui;fill:#444">En UML: - private · # protected · ~ package · + public (§5.3)</text>
   <text x="670" y="308" text-anchor="end" style="font:11px system-ui;fill:#666">[Fuente: GOSLING-JLS §6.6]</text>
@@ -231,7 +231,7 @@
   <rect x="100" y="112" width="100" height="30" rx="4" fill="#2d8659"/><text x="150" y="132" text-anchor="middle" class="t6">ExpLicencia</text>
   <text x="150" y="164" text-anchor="middle" class="l6">Una única superclase.</text>
   <text x="150" y="180" text-anchor="middle" class="l6">Sin ambigüedad posible.</text>
-  <line x1="330" y1="30" x2="330" y2="320" stroke="#ddd"/>
+  <line x1="330" y1="30" x2="330" y2="255" stroke="#ddd"/>
   <text x="510" y="44" text-anchor="middle" style="font:700 12px system-ui;fill:#d13c3c">HERENCIA MÚLTIPLE — diamante</text>
   <rect x="460" y="56" width="100" height="28" rx="4" fill="#0055a0"/><text x="510" y="75" text-anchor="middle" class="t6">A</text>
   <line x1="490" y1="84" x2="440" y2="112" stroke="#0055a0" stroke-width="2"/>
@@ -296,7 +296,7 @@
   <line x1="210" y1="70" x2="210" y2="106" stroke="#0055a0" stroke-width="2"/>
   <rect x="30" y="106" width="150" height="30" rx="4" fill="#2d8659"/><text x="105" y="126" text-anchor="middle" class="t8">e : ExpLicencia</text>
   <rect x="200" y="106" width="160" height="30" rx="4" fill="#2d8659"/><text x="280" y="126" text-anchor="middle" class="t8">e : ExpTributario</text>
-  <text x="330" y="166" text-anchor="middle" class="l8">e.calcularPlazoResolucion()  →  la JVM consulta la tabla de métodos de la clase REAL</text>
+  <text x="372" y="160" class="l8">e.calcularPlazoResolucion()  →</text><text x="372" y="176" class="l8">la JVM consulta la tabla de métodos de la clase REAL</text>
   <line x1="105" y1="136" x2="105" y2="200" stroke="#2d8659" stroke-width="2"/>
   <line x1="280" y1="136" x2="280" y2="200" stroke="#2d8659" stroke-width="2"/>
   <rect x="30" y="200" width="150" height="34" rx="4" fill="#eef4fa" stroke="#2d8659"/><text x="105" y="222" text-anchor="middle" class="m8">return 90</text>
@@ -357,7 +357,7 @@
   <text x="330" y="20" text-anchor="middle" class="h10">Factory Method: desacopla al cliente de las clases concretas</text>
   <rect x="40" y="44" width="150" height="50" rx="4" fill="#0055a0"/><text x="115" y="74" text-anchor="middle" class="t10">Cliente</text>
   <line x1="190" y1="70" x2="240" y2="70" stroke="#0055a0" stroke-width="2" stroke-dasharray="4,3"/>
-  <rect x="240" y="44" width="180" height="50" rx="4" fill="#0055a0"/><text x="330" y="66" text-anchor="middle" class="t10">ExpedienteFactory</text><text x="330" y="82" text-anchor="middle" class="m10">+ crear(tipo)</text>
+  <rect x="240" y="44" width="180" height="50" rx="4" fill="#0055a0"/><text x="330" y="66" text-anchor="middle" class="t10">ExpedienteFactory</text><text x="330" y="82" text-anchor="middle" class="m10" style="fill:#fff">+ crear(tipo)</text>
   <line x1="330" y1="94" x2="200" y2="150" stroke="#2d8659" stroke-width="2"/>
   <line x1="330" y1="94" x2="460" y2="150" stroke="#2d8659" stroke-width="2"/>
   <rect x="120" y="150" width="160" height="60" fill="#fff" stroke="#0055a0" stroke-width="1.5"/>
@@ -399,9 +399,9 @@
   <text x="290" y="100" class="l11">~ package  + public</text>
   <line x1="40" y1="180" x2="100" y2="180" stroke="#0055a0" stroke-width="2"/><polygon points="100,180 88,175 88,185" fill="#fff" stroke="#0055a0"/>
   <text x="115" y="184" class="l11">Generalización (herencia) — flecha triangular hueca</text>
-  <line x1="40" y1="206" x2="100" y2="206" stroke="#0055a0" stroke-width="2"/><polygon points="40,206 52,200 52,212" fill="#0055a0"/>
+  <line x1="62" y1="206" x2="100" y2="206" stroke="#0055a0" stroke-width="2"/><polygon points="40,206 51,200 62,206 51,212" fill="#0055a0" stroke="#0055a0"/>
   <text x="115" y="210" class="l11">Composición — rombo relleno («todo-parte» fuerte)</text>
-  <line x1="40" y1="232" x2="100" y2="232" stroke="#0055a0" stroke-width="2"/><polygon points="40,232 52,226 52,238" fill="#fff" stroke="#0055a0"/>
+  <line x1="62" y1="232" x2="100" y2="232" stroke="#0055a0" stroke-width="2"/><polygon points="40,232 51,226 62,232 51,238" fill="#fff" stroke="#0055a0" stroke-width="1.5"/>
   <text x="115" y="236" class="l11">Agregación — rombo hueco («todo-parte» débil)</text>
   <line x1="40" y1="258" x2="100" y2="258" stroke="#0055a0" stroke-width="2"/>
   <text x="115" y="262" class="l11">Asociación — línea continua (colaboran, se conocen)</text>
